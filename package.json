@@ -1,0 +1,30 @@
+{
+    "name": "groupware-playwright",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test:run": "cross-env ENVIRONMENT=example npx playwright test --headed",
+        "report": "npx playwright show-report"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.44.0",
+        "@types/node": "^20.11.26",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.4.5",
+        "easy-yopmail": "^4.3.6",
+        "eslint-config-prettier": "^9.1.0",
+        "jose": "^5.2.4",
+        "md5": "^2.3.0",
+        "prettier": "^3.2.5",
+        "ts-node": "^10.9.1",
+        "tslib": "^2.6.2",
+        "typescript": "^5.4.2"
+    },
+    "dependencies": {
+        "run": "^1.5.0"
+    }
+}
